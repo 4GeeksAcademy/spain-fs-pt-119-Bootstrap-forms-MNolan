@@ -1,0 +1,17 @@
+/*----Esto elimina flechas de formularios numericos(copy-paste de google tal cual XDD)---*/
+.no-arrows::-webkit-inner-spin-button,
+.no-arrows::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.no-arrows {
+  -moz-appearance: textfield;
+}
+/*------------hasta aquí----------- ^^U*/
+
+/*---------lo de abajo modifica los iconos de fontawesome------*/
+i{
+  font-size: x-large;
+  color: white;
+}
