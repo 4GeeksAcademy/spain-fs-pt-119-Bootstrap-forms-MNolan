@@ -18,36 +18,36 @@
                 </div>
             <form action="" class="m-auto">
                 <div class="alert alert-danger mt-3" role="alert">Some fields are missing</div>
-                <div class="row mt-3">
-                    <div class="col-5">
+                <div class="row mt-3 row-cols-1 row-cols-md-2 row-cols-lg-3">
+                    <div class="col">
                         <label for="visaCardNumber" class="form-label">#Card</label>
                         <input type="number" class="form-control no-arrows" id="visaCardNumber" placeholder="XXXXXXXXXXXXXXXX" min="1000000000000000" max="9999999999999999" step="1" pattern="\d{16}" required/>
                     </div>
-                    <div class="col-3">
+                    <div class="col">
                         <label for="CVC" class="form-label">CVC#</label>
                         <input type="number" class="form-control no-arrows" id="CVC" placeholder="000" min="001" max="999" step="1" pattern="\d{3}" required/>
                     </div>  
-                    <div class="col-4">
+                    <div class="col">
                         <label for="amount" class="form-label">Amount</label>
                         <input type="number" class="form-control no-arrows" id="amount" placeholder="Amount" required/>
                     </div>      
                 </div>
-                <div class="row mt-3">
-                    <div class="col-6">
+                <div class="row mt-3 row-cols-lg-2 row-cols-1">
+                    <div class="col">
                         <label for="FName" class="form-label">First Name</label>
                         <input type="text" class="form-control" id="FName" required/>
                     </div>
-                    <div class="col-6">
+                    <div class="col">
                         <label for="LName" class="form-label">Last Name</label>
                         <input type="text" class="form-control" id="LName" required/>
                     </div>
                 </div>
-                <div class="row mt-3">
-                    <div class="col-6">
+                <div class="row mt-3 row-cols-1 row-cols-md-2 row-cols-lg-3">
+                    <div class="col">
                         <label for="city" class="form-label">City</label>
                         <input type="text" class="form-control" id="city">
                     </div>
-                    <div class="col-3">                        
+                    <div class="col">                        
                         <label for="state" class="form-label">State</label>
                         <select class="form-select" id="state" required>                            
                             <option value=""disabled selected>Pick a State</option>
@@ -103,14 +103,14 @@
                             <option value="WY">Wyoming</option>
                         </select>
                     </div>
-                    <div class="col-3">                        
+                    <div class="col">                        
                         <label for="PC" class="form-label">Postal Code</label>
                         <input type="text" class="form-control" id="city" required/>
                     </div>
                 </div>
                 <div class="row mt-3">
-                    <div class="col-6 mt-3">
-                        <div class="form-group col-6 was-validated" novalidate>
+                    <div class="col-lg-6 col-md-12 col-sm-12 mt-3">
+                        <div class="form-group col-lg-9 col-md-6 col-sm-7 was-validated" novalidate>
                             <label for="payments" class="form-label">We accept:</label>
                             <div class="bg-secondary rounded  mt-3 p-3" id="payments">                        
                                                                 
@@ -135,7 +135,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-6 mt-3">
+                    <div class="col-lg-6 col-md-12 col-sm-12 mt-3">
                         <label for="message" class="form-label">Message</label>
                         <textarea class="form-control" id="message" rows="4"></textarea>
                         <div for="message" class="form-text">Add any notes here</div>
